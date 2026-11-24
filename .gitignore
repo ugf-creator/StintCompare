@@ -1,0 +1,11 @@
+# the program zips are attached to GitHub Releases, never committed to the repository
+_release/
+*.zip
+*.exe
+*.pdb
+Thumbs.db
+desktop.ini
+# the publishing tools stay on this PC only
+pubblica-release.ps1
+pubblica-release.cmd
+PUBBLICARE_SU_GITHUB.md
