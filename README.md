@@ -35,6 +35,14 @@ See [CHANGELOG.md](CHANGELOG.md).
 - **Light and local**: runs on your PC and keeps your data there (it only checks for updates at startup). Works with Garage61 and OpenKneeboard.
 - Available in English, Italian, German, French and Spanish, with metric or imperial units.
 
+## SimHub dashboard (phone, tablet, USB monitor)
+
+**[Stint Compare – SimHub Dashboard](https://github.com/ugf-creator/StintCompare-SimHub-Dashboard)** shows the overlay's values in a SimHub dashboard, on a phone, a tablet or a USB monitor. It is a separate download with its own releases.
+
+1. In Stint Compare: **Settings > SimHub > Publish the data for SimHub** (off by default; local only, no network).
+2. Install the plugin and import the dashboard from the dashboard's latest release.
+3. The **SimHub** button at the top of Stint Compare opens the dashboard's page and turns green when a newer dashboard is out; Settings > SimHub shows the version installed in SimHub and the latest published one.
+
 ## Documentation
 
 - 📖 [User manual (English)](docs/StintCompare_Manual_EN.pdf)
@@ -57,7 +65,7 @@ Some antivirus programs may also flag unsigned executables. If you want to check
 
 ## Privacy
 
-All your data stays on your PC, in `Documents\StintCompare`. The app only contacts the internet at startup to check whether a new version is available. Nothing is sent anywhere else: the "Report for Claude" file is created locally and it is up to you to attach it wherever you want.
+All your data stays on your PC, in `Documents\StintCompare`. The app only contacts the internet at startup to check whether a new version of Stint Compare or of the SimHub dashboard is available. Nothing is sent anywhere else: the "Report for AI" file is created locally and it is up to you to attach it wherever you want. The data for SimHub stays on your PC too (a local shared memory, no network).
 
 Session files contain the names of the other drivers in the session. Keep that in mind before sharing them publicly.
 

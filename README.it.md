@@ -27,8 +27,16 @@ Stint Compare registra i tuoi giri in iRacing e ti aiuta a capire passo, consumo
 - **Passo gara** di tutti i piloti della sessione.
 - **Confronto setup** tra gli stint salvati.
 - **Overlay in diretta** per prove, qualifica e gara.
-- **Report per Claude**: esporta una sessione in un file `.md` da allegare a Claude o a un'altra IA per farla analizzare.
-- Disponibile in italiano e inglese, con unità metriche o imperiali.
+- **Report per AI**: esporta una sessione in un file `.md` da allegare a Claude o a un'altra IA per farla analizzare.
+- Disponibile in italiano, inglese, tedesco, francese e spagnolo, con unità metriche o imperiali.
+
+## Dashboard SimHub (telefono, tablet, monitor USB)
+
+**[Stint Compare – SimHub Dashboard](https://github.com/ugf-creator/StintCompare-SimHub-Dashboard)** mostra i valori dell'overlay in una dashboard di SimHub, su un telefono, un tablet o un monitor USB. È un download separato, con le sue release.
+
+1. In Stint Compare: **Impostazioni > SimHub > Pubblica i dati per SimHub** (spento di partenza; solo su questo PC, niente rete).
+2. Installa il plugin e importa la dashboard dall'ultima release della dashboard.
+3. Il tasto **SimHub** in alto in Stint Compare apre la pagina della dashboard e diventa verde quando ne esce una più nuova; in Impostazioni > SimHub vedi la versione installata in SimHub e l'ultima pubblicata.
 
 ## Documentazione
 
@@ -52,7 +60,7 @@ Anche alcuni antivirus possono segnalare gli eseguibili non firmati. Se vuoi ver
 
 ## Privacy
 
-Tutti i tuoi dati restano sul tuo PC, in `Documenti\StintCompare`. L'app si collega a internet solo all'avvio, per controllare se è disponibile una nuova versione. Non viene inviato nient'altro: il file "Report per Claude" viene creato in locale e sei tu a decidere dove allegarlo.
+Tutti i tuoi dati restano sul tuo PC, in `Documenti\StintCompare`. L'app si collega a internet solo all'avvio, per controllare se è disponibile una nuova versione di Stint Compare o della dashboard SimHub. Non viene inviato nient'altro: il file "Report per AI" viene creato in locale e sei tu a decidere dove allegarlo. Anche i dati per SimHub restano sul tuo PC (una memoria condivisa locale, niente rete).
 
 I file di sessione contengono i nomi degli altri piloti presenti nella sessione. Tienine conto prima di condividerli pubblicamente.
 
